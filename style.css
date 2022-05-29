@@ -1,0 +1,32 @@
+body {
+    font-family: 'Times New Roman';
+    letter-spacing: 1px; /*espaço entre letras*/
+    word-spacing: 1.5px; /*espaço entre palavras*/
+    background-color: white; /*muda a cor de fundo*/
+    overflow-x:inherit;
+}
+
+header {
+    border: 3px solid #1A1332; /*muda a borda*/
+    border-collapse: collapse;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    height: 200px;
+}
+
+#logo {
+    height: 175px;
+    display: flex;
+    display: inline-block;
+    margin: 0px 10px 0px 0px;
+}
+
+.footer-content img {
+    height: 650px;
+    width: 845px;
+    border-radius: 0px;
+    margin-top: -10px;
+    float: right;
+}
